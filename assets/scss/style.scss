@@ -1,0 +1,41 @@
+// this theme is designed & developed for Mediasoft Data Systems Ltd. By Mahbubur Rahman on July 2023. Do not copy any Part or any content from this site. All rights reserved to Mediasoft Data Systems Ltd. 
+
+@import 'partials/colors';
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/common';
+
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-family: $ma-regular;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
